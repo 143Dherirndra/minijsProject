@@ -1,0 +1,12 @@
+<style>
+    @import url("./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css");
+    @import url("assets/font-awesome-4.7.0/css/font-awesome.css");
+    @import url("./assets/animated.css");
+    @import url("./css/global.css");
+    @import url("./css/responsive.css");
+    @import url("./css/print.css");
+
+</style>
+ <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="./assets/jQurery.js"></script>
+    <script src="./js/script.js"></script>

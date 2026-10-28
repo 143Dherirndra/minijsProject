@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+.seCondNavbar{
+    height: 70px;
+    width: 100%;
+    background-color: orangered;
+    margin-top: 20px;
+    position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1030;
+   background-color: white;
+
+}
+.FullNav{
+    height: 70px;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconVala{
+    width: 30%;
+    height: 70px;
+   
+    display: flex;
+    align-items: center;
+   gap: 14px;
+   padding: 10px;
+}
+.listvaala{
+    display: flex;
+     width: 70%;
+    height: 70px;
+   
+}
+.listvaala ul{
+
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.listvaala ul li:hover{
+    cursor: pointer;
+    background-color: rgb(64, 164, 177);
+    height: 30px;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+
+
+}
+
+.listCom{
+    height: 70px;
+    width: 50%;
+}
+.listComavala{
+    width: 50%;
+    height: 70px;
+}
+
+.product-img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    padding: 10px;
+}
+.card{
+    border-radius:20px ;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+
+.card:hover{
+     transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15)
+}
+.card-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 15px;
+   line-height: 1.5
+    
+}
+.price-product{
+    font-weight: bold;
+    font-size: 20px;
+    border:1px solid  black;
+    width: 25%;
+    border-radius: 5px;
+
+}
+.price-product:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.ooo{
+    margin-top: 25px;
+}
+.heading{
+    background-color: black;
+    color: white;
+    font-weight: 10px;
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+.global-bg{
+    background: linear-gradient(rgb(220, 170, 170),rgb(36, 19, 19))
+}
+
+.bbb{
+    height: 200px;
+    width: 400px;
+}
+.category-container {
+ margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  background-color: white;
+
+}
+
+.category-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 15px ;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+.category-item:hover {
+background-color: rgb(204, 177, 182);
+
+transform: translateY(-5px);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+}
+.AllBtn{
+    height: 60px;
+    width: 40%;
+    background-color: rgb(87, 87, 200);
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+   
+    border-radius: 20px;
+}
+
+.btn{
+    height: 55px;
+    width: 40%;
+     background-color: rgb(87, 87, 200);
+     color: white;
+
+
+}
+
+.form-control{
+     height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.slideImg{
+    margin-top: 50px;
+}
+.cart{
+    background-color: antiquewhite;
+    margin-left: 20px;
+    height: 40px;
+    width: 90px;
+    align-items: center;
+   justify-content: center;
+    display: flex;
+    gap: 10px;
+   border: 1px solid black;
+   border-radius: 15px ;
+}
+
+.cart:hover{
+
+    cursor: pointer;
+    background-color: rgb(103, 103, 235);
+}
